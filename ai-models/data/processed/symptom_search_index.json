@@ -1,0 +1,3352 @@
+{
+  "search_index": {
+    "cough": {
+      "canonical_name": "cough",
+      "medical_name": "Cough",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "wet cough",
+        "dry cough",
+        "coughing",
+        "hacking",
+        "productive cough",
+        "persistent cough",
+        "cough"
+      ]
+    },
+    "coughing": {
+      "canonical_name": "cough",
+      "medical_name": "Cough",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "wet cough",
+        "dry cough",
+        "coughing",
+        "hacking",
+        "productive cough",
+        "persistent cough",
+        "cough"
+      ]
+    },
+    "hacking": {
+      "canonical_name": "cough",
+      "medical_name": "Cough",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "wet cough",
+        "dry cough",
+        "coughing",
+        "hacking",
+        "productive cough",
+        "persistent cough",
+        "cough"
+      ]
+    },
+    "persistent cough": {
+      "canonical_name": "cough",
+      "medical_name": "Cough",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "wet cough",
+        "dry cough",
+        "coughing",
+        "hacking",
+        "productive cough",
+        "persistent cough",
+        "cough"
+      ]
+    },
+    "dry cough": {
+      "canonical_name": "cough",
+      "medical_name": "Cough",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "wet cough",
+        "dry cough",
+        "coughing",
+        "hacking",
+        "productive cough",
+        "persistent cough",
+        "cough"
+      ]
+    },
+    "wet cough": {
+      "canonical_name": "cough",
+      "medical_name": "Cough",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "wet cough",
+        "dry cough",
+        "coughing",
+        "hacking",
+        "productive cough",
+        "persistent cough",
+        "cough"
+      ]
+    },
+    "productive cough": {
+      "canonical_name": "cough",
+      "medical_name": "Cough",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "wet cough",
+        "dry cough",
+        "coughing",
+        "hacking",
+        "productive cough",
+        "persistent cough",
+        "cough"
+      ]
+    },
+    "shortness of breath": {
+      "canonical_name": "shortness_of_breath",
+      "medical_name": "Shortness of Breath",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "cant breathe",
+        "breathing difficulty",
+        "dyspnea",
+        "shortness of breath",
+        "breathless",
+        "gasping",
+        "wheezing"
+      ]
+    },
+    "breathless": {
+      "canonical_name": "shortness_of_breath",
+      "medical_name": "Shortness of Breath",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "cant breathe",
+        "breathing difficulty",
+        "dyspnea",
+        "shortness of breath",
+        "breathless",
+        "gasping",
+        "wheezing"
+      ]
+    },
+    "cant breathe": {
+      "canonical_name": "shortness_of_breath",
+      "medical_name": "Shortness of Breath",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "cant breathe",
+        "breathing difficulty",
+        "dyspnea",
+        "shortness of breath",
+        "breathless",
+        "gasping",
+        "wheezing"
+      ]
+    },
+    "breathing difficulty": {
+      "canonical_name": "shortness_of_breath",
+      "medical_name": "Shortness of Breath",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "cant breathe",
+        "breathing difficulty",
+        "dyspnea",
+        "shortness of breath",
+        "breathless",
+        "gasping",
+        "wheezing"
+      ]
+    },
+    "dyspnea": {
+      "canonical_name": "shortness_of_breath",
+      "medical_name": "Shortness of Breath",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "cant breathe",
+        "breathing difficulty",
+        "dyspnea",
+        "shortness of breath",
+        "breathless",
+        "gasping",
+        "wheezing"
+      ]
+    },
+    "gasping": {
+      "canonical_name": "shortness_of_breath",
+      "medical_name": "Shortness of Breath",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "cant breathe",
+        "breathing difficulty",
+        "dyspnea",
+        "shortness of breath",
+        "breathless",
+        "gasping",
+        "wheezing"
+      ]
+    },
+    "wheezing": {
+      "canonical_name": "shortness_of_breath",
+      "medical_name": "Shortness of Breath",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "cant breathe",
+        "breathing difficulty",
+        "dyspnea",
+        "shortness of breath",
+        "breathless",
+        "gasping",
+        "wheezing"
+      ]
+    },
+    "sore throat": {
+      "canonical_name": "sore_throat",
+      "medical_name": "Sore Throat",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "painful throat",
+        "pharyngitis",
+        "sore throat",
+        "throat irritation",
+        "scratchy throat",
+        "throat pain"
+      ]
+    },
+    "throat pain": {
+      "canonical_name": "sore_throat",
+      "medical_name": "Sore Throat",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "painful throat",
+        "pharyngitis",
+        "sore throat",
+        "throat irritation",
+        "scratchy throat",
+        "throat pain"
+      ]
+    },
+    "painful throat": {
+      "canonical_name": "sore_throat",
+      "medical_name": "Sore Throat",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "painful throat",
+        "pharyngitis",
+        "sore throat",
+        "throat irritation",
+        "scratchy throat",
+        "throat pain"
+      ]
+    },
+    "scratchy throat": {
+      "canonical_name": "sore_throat",
+      "medical_name": "Sore Throat",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "painful throat",
+        "pharyngitis",
+        "sore throat",
+        "throat irritation",
+        "scratchy throat",
+        "throat pain"
+      ]
+    },
+    "throat irritation": {
+      "canonical_name": "sore_throat",
+      "medical_name": "Sore Throat",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "painful throat",
+        "pharyngitis",
+        "sore throat",
+        "throat irritation",
+        "scratchy throat",
+        "throat pain"
+      ]
+    },
+    "pharyngitis": {
+      "canonical_name": "sore_throat",
+      "medical_name": "Sore Throat",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "painful throat",
+        "pharyngitis",
+        "sore throat",
+        "throat irritation",
+        "scratchy throat",
+        "throat pain"
+      ]
+    },
+    "runny nose": {
+      "canonical_name": "runny_nose",
+      "medical_name": "Runny Nose",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "nasal discharge",
+        "blocked nose",
+        "runny nose",
+        "stuffy nose",
+        "congestion",
+        "rhinorrhea"
+      ]
+    },
+    "nasal discharge": {
+      "canonical_name": "runny_nose",
+      "medical_name": "Runny Nose",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "nasal discharge",
+        "blocked nose",
+        "runny nose",
+        "stuffy nose",
+        "congestion",
+        "rhinorrhea"
+      ]
+    },
+    "stuffy nose": {
+      "canonical_name": "runny_nose",
+      "medical_name": "Runny Nose",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "nasal discharge",
+        "blocked nose",
+        "runny nose",
+        "stuffy nose",
+        "congestion",
+        "rhinorrhea"
+      ]
+    },
+    "congestion": {
+      "canonical_name": "runny_nose",
+      "medical_name": "Runny Nose",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "nasal discharge",
+        "blocked nose",
+        "runny nose",
+        "stuffy nose",
+        "congestion",
+        "rhinorrhea"
+      ]
+    },
+    "blocked nose": {
+      "canonical_name": "runny_nose",
+      "medical_name": "Runny Nose",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "nasal discharge",
+        "blocked nose",
+        "runny nose",
+        "stuffy nose",
+        "congestion",
+        "rhinorrhea"
+      ]
+    },
+    "rhinorrhea": {
+      "canonical_name": "runny_nose",
+      "medical_name": "Runny Nose",
+      "category": "respiratory",
+      "is_emergency": false,
+      "search_variations": [
+        "nasal discharge",
+        "blocked nose",
+        "runny nose",
+        "stuffy nose",
+        "congestion",
+        "rhinorrhea"
+      ]
+    },
+    "fever": {
+      "canonical_name": "fever",
+      "medical_name": "Fever",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "hot",
+        "fever",
+        "temperature",
+        "burning",
+        "pyrexia",
+        "feverish",
+        "high fever",
+        "high temp"
+      ]
+    },
+    "temperature": {
+      "canonical_name": "fever",
+      "medical_name": "Fever",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "hot",
+        "fever",
+        "temperature",
+        "burning",
+        "pyrexia",
+        "feverish",
+        "high fever",
+        "high temp"
+      ]
+    },
+    "hot": {
+      "canonical_name": "fever",
+      "medical_name": "Fever",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "hot",
+        "fever",
+        "temperature",
+        "burning",
+        "pyrexia",
+        "feverish",
+        "high fever",
+        "high temp"
+      ]
+    },
+    "burning": {
+      "canonical_name": "fever",
+      "medical_name": "Fever",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "hot",
+        "fever",
+        "temperature",
+        "burning",
+        "pyrexia",
+        "feverish",
+        "high fever",
+        "high temp"
+      ]
+    },
+    "feverish": {
+      "canonical_name": "fever",
+      "medical_name": "Fever",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "hot",
+        "fever",
+        "temperature",
+        "burning",
+        "pyrexia",
+        "feverish",
+        "high fever",
+        "high temp"
+      ]
+    },
+    "high temp": {
+      "canonical_name": "fever",
+      "medical_name": "Fever",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "hot",
+        "fever",
+        "temperature",
+        "burning",
+        "pyrexia",
+        "feverish",
+        "high fever",
+        "high temp"
+      ]
+    },
+    "pyrexia": {
+      "canonical_name": "fever",
+      "medical_name": "Fever",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "hot",
+        "fever",
+        "temperature",
+        "burning",
+        "pyrexia",
+        "feverish",
+        "high fever",
+        "high temp"
+      ]
+    },
+    "high fever": {
+      "canonical_name": "fever",
+      "medical_name": "Fever",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "hot",
+        "fever",
+        "temperature",
+        "burning",
+        "pyrexia",
+        "feverish",
+        "high fever",
+        "high temp"
+      ]
+    },
+    "chills": {
+      "canonical_name": "chills",
+      "medical_name": "Chills",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "chills",
+        "shivering",
+        "rigor",
+        "cold",
+        "trembling",
+        "shaking"
+      ]
+    },
+    "shivering": {
+      "canonical_name": "chills",
+      "medical_name": "Chills",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "chills",
+        "shivering",
+        "rigor",
+        "cold",
+        "trembling",
+        "shaking"
+      ]
+    },
+    "cold": {
+      "canonical_name": "chills",
+      "medical_name": "Chills",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "chills",
+        "shivering",
+        "rigor",
+        "cold",
+        "trembling",
+        "shaking"
+      ]
+    },
+    "shaking": {
+      "canonical_name": "chills",
+      "medical_name": "Chills",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "chills",
+        "shivering",
+        "rigor",
+        "cold",
+        "trembling",
+        "shaking"
+      ]
+    },
+    "trembling": {
+      "canonical_name": "chills",
+      "medical_name": "Chills",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "chills",
+        "shivering",
+        "rigor",
+        "cold",
+        "trembling",
+        "shaking"
+      ]
+    },
+    "rigor": {
+      "canonical_name": "chills",
+      "medical_name": "Chills",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "chills",
+        "shivering",
+        "rigor",
+        "cold",
+        "trembling",
+        "shaking"
+      ]
+    },
+    "headache": {
+      "canonical_name": "headache",
+      "medical_name": "Headache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "migraine",
+        "tension headache",
+        "cephalalgia",
+        "headache",
+        "head ache",
+        "skull pain",
+        "head pain"
+      ]
+    },
+    "head pain": {
+      "canonical_name": "headache",
+      "medical_name": "Headache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "migraine",
+        "tension headache",
+        "cephalalgia",
+        "headache",
+        "head ache",
+        "skull pain",
+        "head pain"
+      ]
+    },
+    "migraine": {
+      "canonical_name": "headache",
+      "medical_name": "Headache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "migraine",
+        "tension headache",
+        "cephalalgia",
+        "headache",
+        "head ache",
+        "skull pain",
+        "head pain"
+      ]
+    },
+    "head ache": {
+      "canonical_name": "headache",
+      "medical_name": "Headache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "migraine",
+        "tension headache",
+        "cephalalgia",
+        "headache",
+        "head ache",
+        "skull pain",
+        "head pain"
+      ]
+    },
+    "skull pain": {
+      "canonical_name": "headache",
+      "medical_name": "Headache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "migraine",
+        "tension headache",
+        "cephalalgia",
+        "headache",
+        "head ache",
+        "skull pain",
+        "head pain"
+      ]
+    },
+    "cephalalgia": {
+      "canonical_name": "headache",
+      "medical_name": "Headache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "migraine",
+        "tension headache",
+        "cephalalgia",
+        "headache",
+        "head ache",
+        "skull pain",
+        "head pain"
+      ]
+    },
+    "tension headache": {
+      "canonical_name": "headache",
+      "medical_name": "Headache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "migraine",
+        "tension headache",
+        "cephalalgia",
+        "headache",
+        "head ache",
+        "skull pain",
+        "head pain"
+      ]
+    },
+    "chest pain": {
+      "canonical_name": "chest_pain",
+      "medical_name": "Chest Pain",
+      "category": "pain",
+      "is_emergency": true,
+      "search_variations": [
+        "angina",
+        "chest pain",
+        "chest pressure",
+        "thoracic pain",
+        "heart pain",
+        "chest discomfort"
+      ]
+    },
+    "chest discomfort": {
+      "canonical_name": "chest_pain",
+      "medical_name": "Chest Pain",
+      "category": "pain",
+      "is_emergency": true,
+      "search_variations": [
+        "angina",
+        "chest pain",
+        "chest pressure",
+        "thoracic pain",
+        "heart pain",
+        "chest discomfort"
+      ]
+    },
+    "chest pressure": {
+      "canonical_name": "chest_pain",
+      "medical_name": "Chest Pain",
+      "category": "pain",
+      "is_emergency": true,
+      "search_variations": [
+        "angina",
+        "chest pain",
+        "chest pressure",
+        "thoracic pain",
+        "heart pain",
+        "chest discomfort"
+      ]
+    },
+    "heart pain": {
+      "canonical_name": "chest_pain",
+      "medical_name": "Chest Pain",
+      "category": "pain",
+      "is_emergency": true,
+      "search_variations": [
+        "angina",
+        "chest pain",
+        "chest pressure",
+        "thoracic pain",
+        "heart pain",
+        "chest discomfort"
+      ]
+    },
+    "thoracic pain": {
+      "canonical_name": "chest_pain",
+      "medical_name": "Chest Pain",
+      "category": "pain",
+      "is_emergency": true,
+      "search_variations": [
+        "angina",
+        "chest pain",
+        "chest pressure",
+        "thoracic pain",
+        "heart pain",
+        "chest discomfort"
+      ]
+    },
+    "angina": {
+      "canonical_name": "chest_pain",
+      "medical_name": "Chest Pain",
+      "category": "pain",
+      "is_emergency": true,
+      "search_variations": [
+        "angina",
+        "chest pain",
+        "chest pressure",
+        "thoracic pain",
+        "heart pain",
+        "chest discomfort"
+      ]
+    },
+    "abdominal pain": {
+      "canonical_name": "abdominal_pain",
+      "medical_name": "Abdominal Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "abdominal pain",
+        "stomach pain",
+        "belly ache",
+        "gut pain",
+        "tummy pain",
+        "stomach ache"
+      ]
+    },
+    "stomach pain": {
+      "canonical_name": "abdominal_pain",
+      "medical_name": "Abdominal Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "abdominal pain",
+        "stomach pain",
+        "belly ache",
+        "gut pain",
+        "tummy pain",
+        "stomach ache"
+      ]
+    },
+    "belly ache": {
+      "canonical_name": "abdominal_pain",
+      "medical_name": "Abdominal Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "abdominal pain",
+        "stomach pain",
+        "belly ache",
+        "gut pain",
+        "tummy pain",
+        "stomach ache"
+      ]
+    },
+    "stomach ache": {
+      "canonical_name": "abdominal_pain",
+      "medical_name": "Abdominal Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "abdominal pain",
+        "stomach pain",
+        "belly ache",
+        "gut pain",
+        "tummy pain",
+        "stomach ache"
+      ]
+    },
+    "tummy pain": {
+      "canonical_name": "abdominal_pain",
+      "medical_name": "Abdominal Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "abdominal pain",
+        "stomach pain",
+        "belly ache",
+        "gut pain",
+        "tummy pain",
+        "stomach ache"
+      ]
+    },
+    "gut pain": {
+      "canonical_name": "abdominal_pain",
+      "medical_name": "Abdominal Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "abdominal pain",
+        "stomach pain",
+        "belly ache",
+        "gut pain",
+        "tummy pain",
+        "stomach ache"
+      ]
+    },
+    "back pain": {
+      "canonical_name": "back_pain",
+      "medical_name": "Back Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "upper back pain",
+        "lower back pain",
+        "back pain",
+        "lumbar pain",
+        "spine pain",
+        "backache"
+      ]
+    },
+    "backache": {
+      "canonical_name": "back_pain",
+      "medical_name": "Back Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "upper back pain",
+        "lower back pain",
+        "back pain",
+        "lumbar pain",
+        "spine pain",
+        "backache"
+      ]
+    },
+    "spine pain": {
+      "canonical_name": "back_pain",
+      "medical_name": "Back Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "upper back pain",
+        "lower back pain",
+        "back pain",
+        "lumbar pain",
+        "spine pain",
+        "backache"
+      ]
+    },
+    "lower back pain": {
+      "canonical_name": "back_pain",
+      "medical_name": "Back Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "upper back pain",
+        "lower back pain",
+        "back pain",
+        "lumbar pain",
+        "spine pain",
+        "backache"
+      ]
+    },
+    "upper back pain": {
+      "canonical_name": "back_pain",
+      "medical_name": "Back Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "upper back pain",
+        "lower back pain",
+        "back pain",
+        "lumbar pain",
+        "spine pain",
+        "backache"
+      ]
+    },
+    "lumbar pain": {
+      "canonical_name": "back_pain",
+      "medical_name": "Back Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "upper back pain",
+        "lower back pain",
+        "back pain",
+        "lumbar pain",
+        "spine pain",
+        "backache"
+      ]
+    },
+    "joint pain": {
+      "canonical_name": "joint_pain",
+      "medical_name": "Joint Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "joint ache",
+        "arthritis",
+        "stiff joints",
+        "arthralgia",
+        "joint pain",
+        "joint swelling"
+      ]
+    },
+    "arthritis": {
+      "canonical_name": "joint_pain",
+      "medical_name": "Joint Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "joint ache",
+        "arthritis",
+        "stiff joints",
+        "arthralgia",
+        "joint pain",
+        "joint swelling"
+      ]
+    },
+    "joint ache": {
+      "canonical_name": "joint_pain",
+      "medical_name": "Joint Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "joint ache",
+        "arthritis",
+        "stiff joints",
+        "arthralgia",
+        "joint pain",
+        "joint swelling"
+      ]
+    },
+    "stiff joints": {
+      "canonical_name": "joint_pain",
+      "medical_name": "Joint Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "joint ache",
+        "arthritis",
+        "stiff joints",
+        "arthralgia",
+        "joint pain",
+        "joint swelling"
+      ]
+    },
+    "arthralgia": {
+      "canonical_name": "joint_pain",
+      "medical_name": "Joint Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "joint ache",
+        "arthritis",
+        "stiff joints",
+        "arthralgia",
+        "joint pain",
+        "joint swelling"
+      ]
+    },
+    "joint swelling": {
+      "canonical_name": "joint_pain",
+      "medical_name": "Joint Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "joint ache",
+        "arthritis",
+        "stiff joints",
+        "arthralgia",
+        "joint pain",
+        "joint swelling"
+      ]
+    },
+    "muscle ache": {
+      "canonical_name": "muscle_ache",
+      "medical_name": "Muscle Ache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "myalgia",
+        "muscle soreness",
+        "sore muscles",
+        "muscle ache",
+        "body ache",
+        "muscle pain"
+      ]
+    },
+    "body ache": {
+      "canonical_name": "muscle_ache",
+      "medical_name": "Muscle Ache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "myalgia",
+        "muscle soreness",
+        "sore muscles",
+        "muscle ache",
+        "body ache",
+        "muscle pain"
+      ]
+    },
+    "muscle pain": {
+      "canonical_name": "muscle_ache",
+      "medical_name": "Muscle Ache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "myalgia",
+        "muscle soreness",
+        "sore muscles",
+        "muscle ache",
+        "body ache",
+        "muscle pain"
+      ]
+    },
+    "myalgia": {
+      "canonical_name": "muscle_ache",
+      "medical_name": "Muscle Ache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "myalgia",
+        "muscle soreness",
+        "sore muscles",
+        "muscle ache",
+        "body ache",
+        "muscle pain"
+      ]
+    },
+    "sore muscles": {
+      "canonical_name": "muscle_ache",
+      "medical_name": "Muscle Ache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "myalgia",
+        "muscle soreness",
+        "sore muscles",
+        "muscle ache",
+        "body ache",
+        "muscle pain"
+      ]
+    },
+    "muscle soreness": {
+      "canonical_name": "muscle_ache",
+      "medical_name": "Muscle Ache",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "myalgia",
+        "muscle soreness",
+        "sore muscles",
+        "muscle ache",
+        "body ache",
+        "muscle pain"
+      ]
+    },
+    "ear pain": {
+      "canonical_name": "ear_pain",
+      "medical_name": "Ear Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "otalgia",
+        "ear pain",
+        "ear infection pain",
+        "earache"
+      ]
+    },
+    "earache": {
+      "canonical_name": "ear_pain",
+      "medical_name": "Ear Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "otalgia",
+        "ear pain",
+        "ear infection pain",
+        "earache"
+      ]
+    },
+    "ear infection pain": {
+      "canonical_name": "ear_pain",
+      "medical_name": "Ear Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "otalgia",
+        "ear pain",
+        "ear infection pain",
+        "earache"
+      ]
+    },
+    "otalgia": {
+      "canonical_name": "ear_pain",
+      "medical_name": "Ear Pain",
+      "category": "pain",
+      "is_emergency": false,
+      "search_variations": [
+        "otalgia",
+        "ear pain",
+        "ear infection pain",
+        "earache"
+      ]
+    },
+    "nausea": {
+      "canonical_name": "nausea",
+      "medical_name": "Nausea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "queasy",
+        "upset stomach",
+        "sick",
+        "feeling sick",
+        "nausea",
+        "nauseated"
+      ]
+    },
+    "nauseated": {
+      "canonical_name": "nausea",
+      "medical_name": "Nausea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "queasy",
+        "upset stomach",
+        "sick",
+        "feeling sick",
+        "nausea",
+        "nauseated"
+      ]
+    },
+    "sick": {
+      "canonical_name": "nausea",
+      "medical_name": "Nausea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "queasy",
+        "upset stomach",
+        "sick",
+        "feeling sick",
+        "nausea",
+        "nauseated"
+      ]
+    },
+    "queasy": {
+      "canonical_name": "nausea",
+      "medical_name": "Nausea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "queasy",
+        "upset stomach",
+        "sick",
+        "feeling sick",
+        "nausea",
+        "nauseated"
+      ]
+    },
+    "upset stomach": {
+      "canonical_name": "nausea",
+      "medical_name": "Nausea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "queasy",
+        "upset stomach",
+        "sick",
+        "feeling sick",
+        "nausea",
+        "nauseated"
+      ]
+    },
+    "feeling sick": {
+      "canonical_name": "nausea",
+      "medical_name": "Nausea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "queasy",
+        "upset stomach",
+        "sick",
+        "feeling sick",
+        "nausea",
+        "nauseated"
+      ]
+    },
+    "vomiting": {
+      "canonical_name": "vomiting",
+      "medical_name": "Vomiting",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "throwing up",
+        "emesis",
+        "vomiting",
+        "vomit",
+        "puking"
+      ]
+    },
+    "throwing up": {
+      "canonical_name": "vomiting",
+      "medical_name": "Vomiting",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "throwing up",
+        "emesis",
+        "vomiting",
+        "vomit",
+        "puking"
+      ]
+    },
+    "vomit": {
+      "canonical_name": "vomiting",
+      "medical_name": "Vomiting",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "throwing up",
+        "emesis",
+        "vomiting",
+        "vomit",
+        "puking"
+      ]
+    },
+    "puking": {
+      "canonical_name": "vomiting",
+      "medical_name": "Vomiting",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "throwing up",
+        "emesis",
+        "vomiting",
+        "vomit",
+        "puking"
+      ]
+    },
+    "emesis": {
+      "canonical_name": "vomiting",
+      "medical_name": "Vomiting",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "throwing up",
+        "emesis",
+        "vomiting",
+        "vomit",
+        "puking"
+      ]
+    },
+    "diarrhea": {
+      "canonical_name": "diarrhea",
+      "medical_name": "Diarrhea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "loose stool",
+        "diarrhea",
+        "loose bowels",
+        "runs",
+        "watery stool"
+      ]
+    },
+    "loose stool": {
+      "canonical_name": "diarrhea",
+      "medical_name": "Diarrhea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "loose stool",
+        "diarrhea",
+        "loose bowels",
+        "runs",
+        "watery stool"
+      ]
+    },
+    "watery stool": {
+      "canonical_name": "diarrhea",
+      "medical_name": "Diarrhea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "loose stool",
+        "diarrhea",
+        "loose bowels",
+        "runs",
+        "watery stool"
+      ]
+    },
+    "runs": {
+      "canonical_name": "diarrhea",
+      "medical_name": "Diarrhea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "loose stool",
+        "diarrhea",
+        "loose bowels",
+        "runs",
+        "watery stool"
+      ]
+    },
+    "loose bowels": {
+      "canonical_name": "diarrhea",
+      "medical_name": "Diarrhea",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "loose stool",
+        "diarrhea",
+        "loose bowels",
+        "runs",
+        "watery stool"
+      ]
+    },
+    "constipation": {
+      "canonical_name": "constipation",
+      "medical_name": "Constipation",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "hard stool",
+        "blocked bowels",
+        "difficult bowel movement",
+        "constipation"
+      ]
+    },
+    "blocked bowels": {
+      "canonical_name": "constipation",
+      "medical_name": "Constipation",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "hard stool",
+        "blocked bowels",
+        "difficult bowel movement",
+        "constipation"
+      ]
+    },
+    "hard stool": {
+      "canonical_name": "constipation",
+      "medical_name": "Constipation",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "hard stool",
+        "blocked bowels",
+        "difficult bowel movement",
+        "constipation"
+      ]
+    },
+    "difficult bowel movement": {
+      "canonical_name": "constipation",
+      "medical_name": "Constipation",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "hard stool",
+        "blocked bowels",
+        "difficult bowel movement",
+        "constipation"
+      ]
+    },
+    "bloating": {
+      "canonical_name": "bloating",
+      "medical_name": "Bloating",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "gassy",
+        "distended abdomen",
+        "gas",
+        "swollen belly",
+        "bloating"
+      ]
+    },
+    "gas": {
+      "canonical_name": "bloating",
+      "medical_name": "Bloating",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "gassy",
+        "distended abdomen",
+        "gas",
+        "swollen belly",
+        "bloating"
+      ]
+    },
+    "swollen belly": {
+      "canonical_name": "bloating",
+      "medical_name": "Bloating",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "gassy",
+        "distended abdomen",
+        "gas",
+        "swollen belly",
+        "bloating"
+      ]
+    },
+    "distended abdomen": {
+      "canonical_name": "bloating",
+      "medical_name": "Bloating",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "gassy",
+        "distended abdomen",
+        "gas",
+        "swollen belly",
+        "bloating"
+      ]
+    },
+    "gassy": {
+      "canonical_name": "bloating",
+      "medical_name": "Bloating",
+      "category": "digestive",
+      "is_emergency": false,
+      "search_variations": [
+        "gassy",
+        "distended abdomen",
+        "gas",
+        "swollen belly",
+        "bloating"
+      ]
+    },
+    "dizziness": {
+      "canonical_name": "dizziness",
+      "medical_name": "Dizziness",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "spinning",
+        "dizziness",
+        "dizzy",
+        "vertigo",
+        "balance problems",
+        "lightheaded"
+      ]
+    },
+    "dizzy": {
+      "canonical_name": "dizziness",
+      "medical_name": "Dizziness",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "spinning",
+        "dizziness",
+        "dizzy",
+        "vertigo",
+        "balance problems",
+        "lightheaded"
+      ]
+    },
+    "lightheaded": {
+      "canonical_name": "dizziness",
+      "medical_name": "Dizziness",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "spinning",
+        "dizziness",
+        "dizzy",
+        "vertigo",
+        "balance problems",
+        "lightheaded"
+      ]
+    },
+    "vertigo": {
+      "canonical_name": "dizziness",
+      "medical_name": "Dizziness",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "spinning",
+        "dizziness",
+        "dizzy",
+        "vertigo",
+        "balance problems",
+        "lightheaded"
+      ]
+    },
+    "spinning": {
+      "canonical_name": "dizziness",
+      "medical_name": "Dizziness",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "spinning",
+        "dizziness",
+        "dizzy",
+        "vertigo",
+        "balance problems",
+        "lightheaded"
+      ]
+    },
+    "balance problems": {
+      "canonical_name": "dizziness",
+      "medical_name": "Dizziness",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "spinning",
+        "dizziness",
+        "dizzy",
+        "vertigo",
+        "balance problems",
+        "lightheaded"
+      ]
+    },
+    "confusion": {
+      "canonical_name": "confusion",
+      "medical_name": "Confusion",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "confused",
+        "brain fog",
+        "confusion",
+        "mental fog",
+        "forgetful",
+        "disoriented"
+      ]
+    },
+    "disoriented": {
+      "canonical_name": "confusion",
+      "medical_name": "Confusion",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "confused",
+        "brain fog",
+        "confusion",
+        "mental fog",
+        "forgetful",
+        "disoriented"
+      ]
+    },
+    "mental fog": {
+      "canonical_name": "confusion",
+      "medical_name": "Confusion",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "confused",
+        "brain fog",
+        "confusion",
+        "mental fog",
+        "forgetful",
+        "disoriented"
+      ]
+    },
+    "brain fog": {
+      "canonical_name": "confusion",
+      "medical_name": "Confusion",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "confused",
+        "brain fog",
+        "confusion",
+        "mental fog",
+        "forgetful",
+        "disoriented"
+      ]
+    },
+    "confused": {
+      "canonical_name": "confusion",
+      "medical_name": "Confusion",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "confused",
+        "brain fog",
+        "confusion",
+        "mental fog",
+        "forgetful",
+        "disoriented"
+      ]
+    },
+    "forgetful": {
+      "canonical_name": "confusion",
+      "medical_name": "Confusion",
+      "category": "neurological",
+      "is_emergency": false,
+      "search_variations": [
+        "confused",
+        "brain fog",
+        "confusion",
+        "mental fog",
+        "forgetful",
+        "disoriented"
+      ]
+    },
+    "weakness": {
+      "canonical_name": "weakness",
+      "medical_name": "Weakness",
+      "category": "neurological",
+      "is_emergency": true,
+      "search_variations": [
+        "weak",
+        "muscle weakness",
+        "weakness",
+        "lack of strength",
+        "feeble"
+      ]
+    },
+    "weak": {
+      "canonical_name": "weakness",
+      "medical_name": "Weakness",
+      "category": "neurological",
+      "is_emergency": true,
+      "search_variations": [
+        "weak",
+        "muscle weakness",
+        "weakness",
+        "lack of strength",
+        "feeble"
+      ]
+    },
+    "feeble": {
+      "canonical_name": "weakness",
+      "medical_name": "Weakness",
+      "category": "neurological",
+      "is_emergency": true,
+      "search_variations": [
+        "weak",
+        "muscle weakness",
+        "weakness",
+        "lack of strength",
+        "feeble"
+      ]
+    },
+    "lack of strength": {
+      "canonical_name": "weakness",
+      "medical_name": "Weakness",
+      "category": "neurological",
+      "is_emergency": true,
+      "search_variations": [
+        "weak",
+        "muscle weakness",
+        "weakness",
+        "lack of strength",
+        "feeble"
+      ]
+    },
+    "muscle weakness": {
+      "canonical_name": "weakness",
+      "medical_name": "Weakness",
+      "category": "neurological",
+      "is_emergency": true,
+      "search_variations": [
+        "weak",
+        "muscle weakness",
+        "weakness",
+        "lack of strength",
+        "feeble"
+      ]
+    },
+    "numbness": {
+      "canonical_name": "numbness",
+      "medical_name": "Numbness",
+      "category": "neurological",
+      "is_emergency": true,
+      "search_variations": [
+        "tingling",
+        "pins and needles",
+        "numb",
+        "numbness",
+        "loss of sensation"
+      ]
+    },
+    "tingling": {
+      "canonical_name": "numbness",
+      "medical_name": "Numbness",
+      "category": "neurological",
+      "is_emergency": true,
+      "search_variations": [
+        "tingling",
+        "pins and needles",
+        "numb",
+        "numbness",
+        "loss of sensation"
+      ]
+    },
+    "pins and needles": {
+      "canonical_name": "numbness",
+      "medical_name": "Numbness",
+      "category": "neurological",
+      "is_emergency": true,
+      "search_variations": [
+        "tingling",
+        "pins and needles",
+        "numb",
+        "numbness",
+        "loss of sensation"
+      ]
+    },
+    "loss of sensation": {
+      "canonical_name": "numbness",
+      "medical_name": "Numbness",
+      "category": "neurological",
+      "is_emergency": true,
+      "search_variations": [
+        "tingling",
+        "pins and needles",
+        "numb",
+        "numbness",
+        "loss of sensation"
+      ]
+    },
+    "numb": {
+      "canonical_name": "numbness",
+      "medical_name": "Numbness",
+      "category": "neurological",
+      "is_emergency": true,
+      "search_variations": [
+        "tingling",
+        "pins and needles",
+        "numb",
+        "numbness",
+        "loss of sensation"
+      ]
+    },
+    "fatigue": {
+      "canonical_name": "fatigue",
+      "medical_name": "Fatigue",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "weary",
+        "tiredness",
+        "exhausted",
+        "lethargic",
+        "low energy",
+        "fatigue",
+        "tired"
+      ]
+    },
+    "tired": {
+      "canonical_name": "fatigue",
+      "medical_name": "Fatigue",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "weary",
+        "tiredness",
+        "exhausted",
+        "lethargic",
+        "low energy",
+        "fatigue",
+        "tired"
+      ]
+    },
+    "exhausted": {
+      "canonical_name": "fatigue",
+      "medical_name": "Fatigue",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "weary",
+        "tiredness",
+        "exhausted",
+        "lethargic",
+        "low energy",
+        "fatigue",
+        "tired"
+      ]
+    },
+    "weary": {
+      "canonical_name": "fatigue",
+      "medical_name": "Fatigue",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "weary",
+        "tiredness",
+        "exhausted",
+        "lethargic",
+        "low energy",
+        "fatigue",
+        "tired"
+      ]
+    },
+    "low energy": {
+      "canonical_name": "fatigue",
+      "medical_name": "Fatigue",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "weary",
+        "tiredness",
+        "exhausted",
+        "lethargic",
+        "low energy",
+        "fatigue",
+        "tired"
+      ]
+    },
+    "lethargic": {
+      "canonical_name": "fatigue",
+      "medical_name": "Fatigue",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "weary",
+        "tiredness",
+        "exhausted",
+        "lethargic",
+        "low energy",
+        "fatigue",
+        "tired"
+      ]
+    },
+    "tiredness": {
+      "canonical_name": "fatigue",
+      "medical_name": "Fatigue",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "weary",
+        "tiredness",
+        "exhausted",
+        "lethargic",
+        "low energy",
+        "fatigue",
+        "tired"
+      ]
+    },
+    "sweating": {
+      "canonical_name": "sweating",
+      "medical_name": "Sweating",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "sweating",
+        "excessive sweating",
+        "perspiration",
+        "diaphoresis",
+        "night sweats"
+      ]
+    },
+    "perspiration": {
+      "canonical_name": "sweating",
+      "medical_name": "Sweating",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "sweating",
+        "excessive sweating",
+        "perspiration",
+        "diaphoresis",
+        "night sweats"
+      ]
+    },
+    "night sweats": {
+      "canonical_name": "sweating",
+      "medical_name": "Sweating",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "sweating",
+        "excessive sweating",
+        "perspiration",
+        "diaphoresis",
+        "night sweats"
+      ]
+    },
+    "excessive sweating": {
+      "canonical_name": "sweating",
+      "medical_name": "Sweating",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "sweating",
+        "excessive sweating",
+        "perspiration",
+        "diaphoresis",
+        "night sweats"
+      ]
+    },
+    "diaphoresis": {
+      "canonical_name": "sweating",
+      "medical_name": "Sweating",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "sweating",
+        "excessive sweating",
+        "perspiration",
+        "diaphoresis",
+        "night sweats"
+      ]
+    },
+    "weight loss": {
+      "canonical_name": "weight_loss",
+      "medical_name": "Weight Loss",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "unintentional weight loss",
+        "weight drop",
+        "weight loss",
+        "losing weight"
+      ]
+    },
+    "losing weight": {
+      "canonical_name": "weight_loss",
+      "medical_name": "Weight Loss",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "unintentional weight loss",
+        "weight drop",
+        "weight loss",
+        "losing weight"
+      ]
+    },
+    "unintentional weight loss": {
+      "canonical_name": "weight_loss",
+      "medical_name": "Weight Loss",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "unintentional weight loss",
+        "weight drop",
+        "weight loss",
+        "losing weight"
+      ]
+    },
+    "weight drop": {
+      "canonical_name": "weight_loss",
+      "medical_name": "Weight Loss",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "unintentional weight loss",
+        "weight drop",
+        "weight loss",
+        "losing weight"
+      ]
+    },
+    "loss of appetite": {
+      "canonical_name": "loss_of_appetite",
+      "medical_name": "Loss of Appetite",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "loss of appetite",
+        "no appetite",
+        "anorexia",
+        "not hungry",
+        "reduced appetite"
+      ]
+    },
+    "no appetite": {
+      "canonical_name": "loss_of_appetite",
+      "medical_name": "Loss of Appetite",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "loss of appetite",
+        "no appetite",
+        "anorexia",
+        "not hungry",
+        "reduced appetite"
+      ]
+    },
+    "not hungry": {
+      "canonical_name": "loss_of_appetite",
+      "medical_name": "Loss of Appetite",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "loss of appetite",
+        "no appetite",
+        "anorexia",
+        "not hungry",
+        "reduced appetite"
+      ]
+    },
+    "anorexia": {
+      "canonical_name": "loss_of_appetite",
+      "medical_name": "Loss of Appetite",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "loss of appetite",
+        "no appetite",
+        "anorexia",
+        "not hungry",
+        "reduced appetite"
+      ]
+    },
+    "reduced appetite": {
+      "canonical_name": "loss_of_appetite",
+      "medical_name": "Loss of Appetite",
+      "category": "general",
+      "is_emergency": false,
+      "search_variations": [
+        "loss of appetite",
+        "no appetite",
+        "anorexia",
+        "not hungry",
+        "reduced appetite"
+      ]
+    },
+    "rash": {
+      "canonical_name": "rash",
+      "medical_name": "Rash",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "hives",
+        "skin irritation",
+        "rash",
+        "eruption",
+        "red skin",
+        "skin rash"
+      ]
+    },
+    "skin rash": {
+      "canonical_name": "rash",
+      "medical_name": "Rash",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "hives",
+        "skin irritation",
+        "rash",
+        "eruption",
+        "red skin",
+        "skin rash"
+      ]
+    },
+    "skin irritation": {
+      "canonical_name": "rash",
+      "medical_name": "Rash",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "hives",
+        "skin irritation",
+        "rash",
+        "eruption",
+        "red skin",
+        "skin rash"
+      ]
+    },
+    "hives": {
+      "canonical_name": "rash",
+      "medical_name": "Rash",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "hives",
+        "skin irritation",
+        "rash",
+        "eruption",
+        "red skin",
+        "skin rash"
+      ]
+    },
+    "red skin": {
+      "canonical_name": "rash",
+      "medical_name": "Rash",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "hives",
+        "skin irritation",
+        "rash",
+        "eruption",
+        "red skin",
+        "skin rash"
+      ]
+    },
+    "eruption": {
+      "canonical_name": "rash",
+      "medical_name": "Rash",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "hives",
+        "skin irritation",
+        "rash",
+        "eruption",
+        "red skin",
+        "skin rash"
+      ]
+    },
+    "itching": {
+      "canonical_name": "itching",
+      "medical_name": "Itching",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "skin itching",
+        "itchy",
+        "pruritus",
+        "itching",
+        "scratching"
+      ]
+    },
+    "itchy": {
+      "canonical_name": "itching",
+      "medical_name": "Itching",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "skin itching",
+        "itchy",
+        "pruritus",
+        "itching",
+        "scratching"
+      ]
+    },
+    "pruritus": {
+      "canonical_name": "itching",
+      "medical_name": "Itching",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "skin itching",
+        "itchy",
+        "pruritus",
+        "itching",
+        "scratching"
+      ]
+    },
+    "skin itching": {
+      "canonical_name": "itching",
+      "medical_name": "Itching",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "skin itching",
+        "itchy",
+        "pruritus",
+        "itching",
+        "scratching"
+      ]
+    },
+    "scratching": {
+      "canonical_name": "itching",
+      "medical_name": "Itching",
+      "category": "skin",
+      "is_emergency": false,
+      "search_variations": [
+        "skin itching",
+        "itchy",
+        "pruritus",
+        "itching",
+        "scratching"
+      ]
+    },
+    "swelling": {
+      "canonical_name": "swelling",
+      "medical_name": "Swelling",
+      "category": "skin",
+      "is_emergency": true,
+      "search_variations": [
+        "edema",
+        "inflammation",
+        "puffiness",
+        "swollen",
+        "swelling"
+      ]
+    },
+    "edema": {
+      "canonical_name": "swelling",
+      "medical_name": "Swelling",
+      "category": "skin",
+      "is_emergency": true,
+      "search_variations": [
+        "edema",
+        "inflammation",
+        "puffiness",
+        "swollen",
+        "swelling"
+      ]
+    },
+    "puffiness": {
+      "canonical_name": "swelling",
+      "medical_name": "Swelling",
+      "category": "skin",
+      "is_emergency": true,
+      "search_variations": [
+        "edema",
+        "inflammation",
+        "puffiness",
+        "swollen",
+        "swelling"
+      ]
+    },
+    "swollen": {
+      "canonical_name": "swelling",
+      "medical_name": "Swelling",
+      "category": "skin",
+      "is_emergency": true,
+      "search_variations": [
+        "edema",
+        "inflammation",
+        "puffiness",
+        "swollen",
+        "swelling"
+      ]
+    },
+    "inflammation": {
+      "canonical_name": "swelling",
+      "medical_name": "Swelling",
+      "category": "skin",
+      "is_emergency": true,
+      "search_variations": [
+        "edema",
+        "inflammation",
+        "puffiness",
+        "swollen",
+        "swelling"
+      ]
+    },
+    "insomnia": {
+      "canonical_name": "insomnia",
+      "medical_name": "Insomnia",
+      "category": "sleep",
+      "is_emergency": false,
+      "search_variations": [
+        "trouble sleeping",
+        "sleep problems",
+        "sleeplessness",
+        "cant sleep",
+        "insomnia"
+      ]
+    },
+    "cant sleep": {
+      "canonical_name": "insomnia",
+      "medical_name": "Insomnia",
+      "category": "sleep",
+      "is_emergency": false,
+      "search_variations": [
+        "trouble sleeping",
+        "sleep problems",
+        "sleeplessness",
+        "cant sleep",
+        "insomnia"
+      ]
+    },
+    "sleeplessness": {
+      "canonical_name": "insomnia",
+      "medical_name": "Insomnia",
+      "category": "sleep",
+      "is_emergency": false,
+      "search_variations": [
+        "trouble sleeping",
+        "sleep problems",
+        "sleeplessness",
+        "cant sleep",
+        "insomnia"
+      ]
+    },
+    "trouble sleeping": {
+      "canonical_name": "insomnia",
+      "medical_name": "Insomnia",
+      "category": "sleep",
+      "is_emergency": false,
+      "search_variations": [
+        "trouble sleeping",
+        "sleep problems",
+        "sleeplessness",
+        "cant sleep",
+        "insomnia"
+      ]
+    },
+    "sleep problems": {
+      "canonical_name": "insomnia",
+      "medical_name": "Insomnia",
+      "category": "sleep",
+      "is_emergency": false,
+      "search_variations": [
+        "trouble sleeping",
+        "sleep problems",
+        "sleeplessness",
+        "cant sleep",
+        "insomnia"
+      ]
+    },
+    "anxiety": {
+      "canonical_name": "anxiety",
+      "medical_name": "Anxiety",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "worried",
+        "panic",
+        "anxiety",
+        "anxious",
+        "nervous",
+        "stressed",
+        "apprehensive"
+      ]
+    },
+    "anxious": {
+      "canonical_name": "anxiety",
+      "medical_name": "Anxiety",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "worried",
+        "panic",
+        "anxiety",
+        "anxious",
+        "nervous",
+        "stressed",
+        "apprehensive"
+      ]
+    },
+    "worried": {
+      "canonical_name": "anxiety",
+      "medical_name": "Anxiety",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "worried",
+        "panic",
+        "anxiety",
+        "anxious",
+        "nervous",
+        "stressed",
+        "apprehensive"
+      ]
+    },
+    "nervous": {
+      "canonical_name": "anxiety",
+      "medical_name": "Anxiety",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "worried",
+        "panic",
+        "anxiety",
+        "anxious",
+        "nervous",
+        "stressed",
+        "apprehensive"
+      ]
+    },
+    "panic": {
+      "canonical_name": "anxiety",
+      "medical_name": "Anxiety",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "worried",
+        "panic",
+        "anxiety",
+        "anxious",
+        "nervous",
+        "stressed",
+        "apprehensive"
+      ]
+    },
+    "stressed": {
+      "canonical_name": "anxiety",
+      "medical_name": "Anxiety",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "worried",
+        "panic",
+        "anxiety",
+        "anxious",
+        "nervous",
+        "stressed",
+        "apprehensive"
+      ]
+    },
+    "apprehensive": {
+      "canonical_name": "anxiety",
+      "medical_name": "Anxiety",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "worried",
+        "panic",
+        "anxiety",
+        "anxious",
+        "nervous",
+        "stressed",
+        "apprehensive"
+      ]
+    },
+    "depression": {
+      "canonical_name": "depression",
+      "medical_name": "Depression",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "melancholy",
+        "sad",
+        "low mood",
+        "hopeless",
+        "depressed",
+        "depression"
+      ]
+    },
+    "depressed": {
+      "canonical_name": "depression",
+      "medical_name": "Depression",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "melancholy",
+        "sad",
+        "low mood",
+        "hopeless",
+        "depressed",
+        "depression"
+      ]
+    },
+    "sad": {
+      "canonical_name": "depression",
+      "medical_name": "Depression",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "melancholy",
+        "sad",
+        "low mood",
+        "hopeless",
+        "depressed",
+        "depression"
+      ]
+    },
+    "low mood": {
+      "canonical_name": "depression",
+      "medical_name": "Depression",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "melancholy",
+        "sad",
+        "low mood",
+        "hopeless",
+        "depressed",
+        "depression"
+      ]
+    },
+    "hopeless": {
+      "canonical_name": "depression",
+      "medical_name": "Depression",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "melancholy",
+        "sad",
+        "low mood",
+        "hopeless",
+        "depressed",
+        "depression"
+      ]
+    },
+    "melancholy": {
+      "canonical_name": "depression",
+      "medical_name": "Depression",
+      "category": "mental",
+      "is_emergency": false,
+      "search_variations": [
+        "melancholy",
+        "sad",
+        "low mood",
+        "hopeless",
+        "depressed",
+        "depression"
+      ]
+    },
+    "vision changes": {
+      "canonical_name": "vision_changes",
+      "medical_name": "Vision Changes",
+      "category": "eye",
+      "is_emergency": true,
+      "search_variations": [
+        "vision loss",
+        "blurred vision",
+        "vision changes",
+        "seeing spots",
+        "double vision"
+      ]
+    },
+    "blurred vision": {
+      "canonical_name": "vision_changes",
+      "medical_name": "Vision Changes",
+      "category": "eye",
+      "is_emergency": true,
+      "search_variations": [
+        "vision loss",
+        "blurred vision",
+        "vision changes",
+        "seeing spots",
+        "double vision"
+      ]
+    },
+    "double vision": {
+      "canonical_name": "vision_changes",
+      "medical_name": "Vision Changes",
+      "category": "eye",
+      "is_emergency": true,
+      "search_variations": [
+        "vision loss",
+        "blurred vision",
+        "vision changes",
+        "seeing spots",
+        "double vision"
+      ]
+    },
+    "vision loss": {
+      "canonical_name": "vision_changes",
+      "medical_name": "Vision Changes",
+      "category": "eye",
+      "is_emergency": true,
+      "search_variations": [
+        "vision loss",
+        "blurred vision",
+        "vision changes",
+        "seeing spots",
+        "double vision"
+      ]
+    },
+    "seeing spots": {
+      "canonical_name": "vision_changes",
+      "medical_name": "Vision Changes",
+      "category": "eye",
+      "is_emergency": true,
+      "search_variations": [
+        "vision loss",
+        "blurred vision",
+        "vision changes",
+        "seeing spots",
+        "double vision"
+      ]
+    },
+    "eye pain": {
+      "canonical_name": "eye_pain",
+      "medical_name": "Eye Pain",
+      "category": "eye",
+      "is_emergency": false,
+      "search_variations": [
+        "eye ache",
+        "painful eyes",
+        "eye discomfort",
+        "eye pain"
+      ]
+    },
+    "eye ache": {
+      "canonical_name": "eye_pain",
+      "medical_name": "Eye Pain",
+      "category": "eye",
+      "is_emergency": false,
+      "search_variations": [
+        "eye ache",
+        "painful eyes",
+        "eye discomfort",
+        "eye pain"
+      ]
+    },
+    "eye discomfort": {
+      "canonical_name": "eye_pain",
+      "medical_name": "Eye Pain",
+      "category": "eye",
+      "is_emergency": false,
+      "search_variations": [
+        "eye ache",
+        "painful eyes",
+        "eye discomfort",
+        "eye pain"
+      ]
+    },
+    "painful eyes": {
+      "canonical_name": "eye_pain",
+      "medical_name": "Eye Pain",
+      "category": "eye",
+      "is_emergency": false,
+      "search_variations": [
+        "eye ache",
+        "painful eyes",
+        "eye discomfort",
+        "eye pain"
+      ]
+    }
+  },
+  "symptom_database": {
+    "cough": {
+      "medical_name": "Cough",
+      "synonyms": [
+        "coughing",
+        "hacking",
+        "persistent cough",
+        "dry cough",
+        "wet cough",
+        "productive cough"
+      ],
+      "category": "respiratory",
+      "severity_indicators": [
+        "blood in cough",
+        "chronic cough",
+        "severe cough"
+      ],
+      "related_symptoms": [
+        "sore throat",
+        "chest pain",
+        "shortness of breath"
+      ]
+    },
+    "shortness_of_breath": {
+      "medical_name": "Shortness of Breath",
+      "synonyms": [
+        "breathless",
+        "cant breathe",
+        "breathing difficulty",
+        "dyspnea",
+        "gasping",
+        "wheezing"
+      ],
+      "category": "respiratory",
+      "severity_indicators": [
+        "severe breathlessness",
+        "bluish lips",
+        "chest pain with breathing"
+      ],
+      "related_symptoms": [
+        "chest pain",
+        "cough",
+        "anxiety"
+      ]
+    },
+    "sore_throat": {
+      "medical_name": "Sore Throat",
+      "synonyms": [
+        "throat pain",
+        "painful throat",
+        "scratchy throat",
+        "throat irritation",
+        "pharyngitis"
+      ],
+      "category": "respiratory",
+      "severity_indicators": [
+        "severe throat pain",
+        "difficulty swallowing",
+        "throat swelling"
+      ],
+      "related_symptoms": [
+        "cough",
+        "fever",
+        "runny nose"
+      ]
+    },
+    "runny_nose": {
+      "medical_name": "Runny Nose",
+      "synonyms": [
+        "nasal discharge",
+        "stuffy nose",
+        "congestion",
+        "blocked nose",
+        "rhinorrhea"
+      ],
+      "category": "respiratory",
+      "severity_indicators": [
+        "green discharge",
+        "yellow discharge",
+        "facial pain"
+      ],
+      "related_symptoms": [
+        "sore throat",
+        "cough",
+        "fever"
+      ]
+    },
+    "fever": {
+      "medical_name": "Fever",
+      "synonyms": [
+        "temperature",
+        "hot",
+        "burning",
+        "feverish",
+        "high temp",
+        "pyrexia",
+        "high fever"
+      ],
+      "category": "general",
+      "severity_indicators": [
+        "high fever",
+        "persistent fever",
+        "fever with confusion"
+      ],
+      "related_symptoms": [
+        "chills",
+        "sweating",
+        "headache",
+        "body ache"
+      ]
+    },
+    "chills": {
+      "medical_name": "Chills",
+      "synonyms": [
+        "shivering",
+        "cold",
+        "shaking",
+        "trembling",
+        "rigor"
+      ],
+      "category": "general",
+      "severity_indicators": [
+        "uncontrollable shaking",
+        "severe chills"
+      ],
+      "related_symptoms": [
+        "fever",
+        "sweating",
+        "body ache"
+      ]
+    },
+    "headache": {
+      "medical_name": "Headache",
+      "synonyms": [
+        "head pain",
+        "migraine",
+        "head ache",
+        "skull pain",
+        "cephalalgia",
+        "tension headache"
+      ],
+      "category": "pain",
+      "severity_indicators": [
+        "severe headache",
+        "sudden headache",
+        "headache with vision changes"
+      ],
+      "related_symptoms": [
+        "nausea",
+        "dizziness",
+        "fever"
+      ]
+    },
+    "chest_pain": {
+      "medical_name": "Chest Pain",
+      "synonyms": [
+        "chest discomfort",
+        "chest pressure",
+        "heart pain",
+        "thoracic pain",
+        "angina"
+      ],
+      "category": "pain",
+      "severity_indicators": [
+        "severe chest pain",
+        "crushing pain",
+        "radiating pain"
+      ],
+      "related_symptoms": [
+        "shortness of breath",
+        "sweating",
+        "nausea"
+      ],
+      "emergency": true
+    },
+    "abdominal_pain": {
+      "medical_name": "Abdominal Pain",
+      "synonyms": [
+        "stomach pain",
+        "belly ache",
+        "stomach ache",
+        "tummy pain",
+        "gut pain"
+      ],
+      "category": "pain",
+      "severity_indicators": [
+        "severe pain",
+        "cramping",
+        "sharp pain"
+      ],
+      "related_symptoms": [
+        "nausea",
+        "vomiting",
+        "diarrhea"
+      ]
+    },
+    "back_pain": {
+      "medical_name": "Back Pain",
+      "synonyms": [
+        "backache",
+        "spine pain",
+        "lower back pain",
+        "upper back pain",
+        "lumbar pain"
+      ],
+      "category": "pain",
+      "severity_indicators": [
+        "severe back pain",
+        "radiating pain",
+        "numbness"
+      ],
+      "related_symptoms": [
+        "muscle ache",
+        "stiffness"
+      ]
+    },
+    "joint_pain": {
+      "medical_name": "Joint Pain",
+      "synonyms": [
+        "arthritis",
+        "joint ache",
+        "stiff joints",
+        "arthralgia",
+        "joint swelling"
+      ],
+      "category": "pain",
+      "severity_indicators": [
+        "severe pain",
+        "swelling",
+        "redness"
+      ],
+      "related_symptoms": [
+        "stiffness",
+        "limited movement"
+      ]
+    },
+    "muscle_ache": {
+      "medical_name": "Muscle Ache",
+      "synonyms": [
+        "body ache",
+        "muscle pain",
+        "myalgia",
+        "sore muscles",
+        "muscle soreness"
+      ],
+      "category": "pain",
+      "severity_indicators": [
+        "severe pain",
+        "weakness",
+        "cramping"
+      ],
+      "related_symptoms": [
+        "fatigue",
+        "fever"
+      ]
+    },
+    "ear_pain": {
+      "medical_name": "Ear Pain",
+      "synonyms": [
+        "earache",
+        "ear infection pain",
+        "otalgia"
+      ],
+      "category": "pain",
+      "severity_indicators": [
+        "severe ear pain",
+        "discharge",
+        "hearing loss"
+      ],
+      "related_symptoms": [
+        "fever",
+        "dizziness"
+      ]
+    },
+    "nausea": {
+      "medical_name": "Nausea",
+      "synonyms": [
+        "nauseated",
+        "sick",
+        "queasy",
+        "upset stomach",
+        "feeling sick"
+      ],
+      "category": "digestive",
+      "severity_indicators": [
+        "persistent nausea",
+        "severe nausea",
+        "dehydration"
+      ],
+      "related_symptoms": [
+        "vomiting",
+        "dizziness",
+        "abdominal pain"
+      ]
+    },
+    "vomiting": {
+      "medical_name": "Vomiting",
+      "synonyms": [
+        "throwing up",
+        "vomit",
+        "puking",
+        "emesis"
+      ],
+      "category": "digestive",
+      "severity_indicators": [
+        "blood in vomit",
+        "persistent vomiting",
+        "dehydration"
+      ],
+      "related_symptoms": [
+        "nausea",
+        "abdominal pain",
+        "diarrhea"
+      ]
+    },
+    "diarrhea": {
+      "medical_name": "Diarrhea",
+      "synonyms": [
+        "loose stool",
+        "watery stool",
+        "runs",
+        "loose bowels"
+      ],
+      "category": "digestive",
+      "severity_indicators": [
+        "blood in stool",
+        "severe diarrhea",
+        "dehydration"
+      ],
+      "related_symptoms": [
+        "abdominal pain",
+        "nausea",
+        "fever"
+      ]
+    },
+    "constipation": {
+      "medical_name": "Constipation",
+      "synonyms": [
+        "blocked bowels",
+        "hard stool",
+        "difficult bowel movement"
+      ],
+      "category": "digestive",
+      "severity_indicators": [
+        "severe pain",
+        "no bowel movement",
+        "blood"
+      ],
+      "related_symptoms": [
+        "abdominal pain",
+        "bloating"
+      ]
+    },
+    "bloating": {
+      "medical_name": "Bloating",
+      "synonyms": [
+        "gas",
+        "swollen belly",
+        "distended abdomen",
+        "gassy"
+      ],
+      "category": "digestive",
+      "severity_indicators": [
+        "severe bloating",
+        "pain",
+        "persistent"
+      ],
+      "related_symptoms": [
+        "abdominal pain",
+        "constipation"
+      ]
+    },
+    "dizziness": {
+      "medical_name": "Dizziness",
+      "synonyms": [
+        "dizzy",
+        "lightheaded",
+        "vertigo",
+        "spinning",
+        "balance problems"
+      ],
+      "category": "neurological",
+      "severity_indicators": [
+        "severe dizziness",
+        "fainting",
+        "loss of consciousness"
+      ],
+      "related_symptoms": [
+        "nausea",
+        "headache",
+        "confusion"
+      ]
+    },
+    "confusion": {
+      "medical_name": "Confusion",
+      "synonyms": [
+        "disoriented",
+        "mental fog",
+        "brain fog",
+        "confused",
+        "forgetful"
+      ],
+      "category": "neurological",
+      "severity_indicators": [
+        "severe confusion",
+        "disorientation",
+        "memory loss"
+      ],
+      "related_symptoms": [
+        "headache",
+        "fever",
+        "fatigue"
+      ]
+    },
+    "weakness": {
+      "medical_name": "Weakness",
+      "synonyms": [
+        "weak",
+        "feeble",
+        "lack of strength",
+        "muscle weakness"
+      ],
+      "category": "neurological",
+      "severity_indicators": [
+        "sudden weakness",
+        "one-sided weakness",
+        "paralysis"
+      ],
+      "related_symptoms": [
+        "fatigue",
+        "dizziness"
+      ],
+      "emergency": true
+    },
+    "numbness": {
+      "medical_name": "Numbness",
+      "synonyms": [
+        "tingling",
+        "pins and needles",
+        "loss of sensation",
+        "numb"
+      ],
+      "category": "neurological",
+      "severity_indicators": [
+        "sudden numbness",
+        "spreading numbness",
+        "one-sided"
+      ],
+      "related_symptoms": [
+        "weakness",
+        "pain"
+      ],
+      "emergency": true
+    },
+    "fatigue": {
+      "medical_name": "Fatigue",
+      "synonyms": [
+        "tired",
+        "exhausted",
+        "weary",
+        "low energy",
+        "lethargic",
+        "tiredness"
+      ],
+      "category": "general",
+      "severity_indicators": [
+        "severe fatigue",
+        "chronic fatigue",
+        "unable to function"
+      ],
+      "related_symptoms": [
+        "weakness",
+        "dizziness",
+        "headache"
+      ]
+    },
+    "sweating": {
+      "medical_name": "Sweating",
+      "synonyms": [
+        "perspiration",
+        "night sweats",
+        "excessive sweating",
+        "diaphoresis"
+      ],
+      "category": "general",
+      "severity_indicators": [
+        "severe sweating",
+        "night sweats",
+        "cold sweats"
+      ],
+      "related_symptoms": [
+        "fever",
+        "chills",
+        "anxiety"
+      ]
+    },
+    "weight_loss": {
+      "medical_name": "Weight Loss",
+      "synonyms": [
+        "losing weight",
+        "unintentional weight loss",
+        "weight drop"
+      ],
+      "category": "general",
+      "severity_indicators": [
+        "rapid weight loss",
+        "severe weight loss",
+        "unintended"
+      ],
+      "related_symptoms": [
+        "fatigue",
+        "loss of appetite"
+      ]
+    },
+    "loss_of_appetite": {
+      "medical_name": "Loss of Appetite",
+      "synonyms": [
+        "no appetite",
+        "not hungry",
+        "anorexia",
+        "reduced appetite"
+      ],
+      "category": "general",
+      "severity_indicators": [
+        "complete loss",
+        "weight loss",
+        "malnutrition"
+      ],
+      "related_symptoms": [
+        "nausea",
+        "fatigue",
+        "weight loss"
+      ]
+    },
+    "rash": {
+      "medical_name": "Rash",
+      "synonyms": [
+        "skin rash",
+        "skin irritation",
+        "hives",
+        "red skin",
+        "eruption"
+      ],
+      "category": "skin",
+      "severity_indicators": [
+        "spreading rash",
+        "severe itching",
+        "blistering"
+      ],
+      "related_symptoms": [
+        "itching",
+        "fever",
+        "swelling"
+      ]
+    },
+    "itching": {
+      "medical_name": "Itching",
+      "synonyms": [
+        "itchy",
+        "pruritus",
+        "skin itching",
+        "scratching"
+      ],
+      "category": "skin",
+      "severity_indicators": [
+        "severe itching",
+        "bleeding from scratching",
+        "widespread"
+      ],
+      "related_symptoms": [
+        "rash",
+        "dry skin"
+      ]
+    },
+    "swelling": {
+      "medical_name": "Swelling",
+      "synonyms": [
+        "edema",
+        "puffiness",
+        "swollen",
+        "inflammation"
+      ],
+      "category": "skin",
+      "severity_indicators": [
+        "severe swelling",
+        "rapid swelling",
+        "breathing difficulty"
+      ],
+      "related_symptoms": [
+        "pain",
+        "redness",
+        "warmth"
+      ],
+      "emergency": true
+    },
+    "insomnia": {
+      "medical_name": "Insomnia",
+      "synonyms": [
+        "cant sleep",
+        "sleeplessness",
+        "trouble sleeping",
+        "sleep problems"
+      ],
+      "category": "sleep",
+      "severity_indicators": [
+        "chronic insomnia",
+        "severe sleep deprivation"
+      ],
+      "related_symptoms": [
+        "fatigue",
+        "anxiety",
+        "irritability"
+      ]
+    },
+    "anxiety": {
+      "medical_name": "Anxiety",
+      "synonyms": [
+        "anxious",
+        "worried",
+        "nervous",
+        "panic",
+        "stressed",
+        "apprehensive"
+      ],
+      "category": "mental",
+      "severity_indicators": [
+        "panic attacks",
+        "severe anxiety",
+        "chest pain with anxiety"
+      ],
+      "related_symptoms": [
+        "sweating",
+        "palpitations",
+        "shortness of breath"
+      ]
+    },
+    "depression": {
+      "medical_name": "Depression",
+      "synonyms": [
+        "depressed",
+        "sad",
+        "low mood",
+        "hopeless",
+        "melancholy"
+      ],
+      "category": "mental",
+      "severity_indicators": [
+        "suicidal thoughts",
+        "severe depression",
+        "inability to function"
+      ],
+      "related_symptoms": [
+        "fatigue",
+        "insomnia",
+        "loss of appetite"
+      ]
+    },
+    "vision_changes": {
+      "medical_name": "Vision Changes",
+      "synonyms": [
+        "blurred vision",
+        "double vision",
+        "vision loss",
+        "seeing spots"
+      ],
+      "category": "eye",
+      "severity_indicators": [
+        "sudden vision loss",
+        "severe blurring",
+        "double vision"
+      ],
+      "related_symptoms": [
+        "headache",
+        "eye pain"
+      ],
+      "emergency": true
+    },
+    "eye_pain": {
+      "medical_name": "Eye Pain",
+      "synonyms": [
+        "eye ache",
+        "eye discomfort",
+        "painful eyes"
+      ],
+      "category": "eye",
+      "severity_indicators": [
+        "severe pain",
+        "vision loss",
+        "discharge"
+      ],
+      "related_symptoms": [
+        "redness",
+        "vision changes"
+      ]
+    }
+  }
+}

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Point Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border: 2px solid #333;
+            padding: 20px;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #4a90e2, #357abd);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .company-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .section-title {
+            background: #e6f3ff;
+            padding: 10px;
+            font-weight: bold;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        th {
+            background: #b3d9ff;
+            font-weight: bold;
+        }
+        
+        .param-cell {
+            text-align: left;
+            padding-left: 10px;
+            background: #f9f9f9;
+        }
+        
+        input[type="number"] {
+            width: 60px;
+            padding: 4px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        
+        input[type="radio"] {
+            transform: scale(1.2);
+        }
+        
+        .complexity-table {
+            margin-top: 20px;
+        }
+        
+        .complexity-question {
+            text-align: left;
+            padding-left: 10px;
+            font-size: 13px;
+        }
+        
+        .scale-header {
+            background: #b3d9ff;
+            font-size: 12px;
+        }
+        
+        .result-section {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .result-box {
+            background: #b3d9ff;
+            border: 1px solid #333;
+            padding: 15px;
+            margin: 20px auto;
+            width: 300px;
+        }
+        
+        .result-label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .result-value {
+            font-size: 18px;
+            font-weight: bold;
+            background: white;
+            padding: 8px;
+            border: 1px solid #333;
+        }
+        
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            border: 1px solid #333;
+            background: #f0f0f0;
+        }
+        
+        button:hover {
+            background: #e0e0e0;
+        }
+        
+        .nav-links {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+        }
+        
+        .nav-links a {
+            color: blue;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <div class="logo-icon">TT</div>
+                <div>
+                    <div style="font-size: 14px;">Software Engineering</div>
+                    <div class="company-name">Tiny Tools</div>
+                </div>
+            </div>
+            <div class="title">FP CALCULATOR</div>
+        </div>
+
+        <!-- Domain Characteristic Table -->
+        <div class="section-title">Domain Characteristic Table</div>
+        <table>
+            <tr>
+                <th style="width: 40%;">MEASUREMENT PARAMETER</th>
+                <th style="width: 15%;">COUNT<br>(value >= 0)</th>
+                <th colspan="3" style="width: 45%;">WEIGHTING FACTOR<br>Simple&nbsp;&nbsp;&nbsp;&nbsp;Average&nbsp;&nbsp;&nbsp;&nbsp;Complex</th>
+            </tr>
+            <tr>
+                <td class="param-cell">Number of User Input</td>
+                <td><input type="number" id="userInput" value="9" min="0"></td>
+                <td><input type="radio" name="userInputWeight" value="3" checked></td>
+                <td><input type="radio" name="userInputWeight" value="4"></td>
+                <td><input type="radio" name="userInputWeight" value="6"></td>
+            </tr>
+            <tr>
+                <td class="param-cell">Number of User Outputs</td>
+                <td><input type="number" id="userOutput" value="7" min="0"></td>
+                <td><input type="radio" name="userOutputWeight" value="4"></td>
+                <td><input type="radio" name="userOutputWeight" value="5" checked></td>
+                <td><input type="radio" name="userOutputWeight" value="7"></td>
+            </tr>
+            <tr>
+                <td class="param-cell">Number of User Inquiries</td>
+                <td><input type="number" id="userInquiries" value="3" min="0"></td>
+                <td><input type="radio" name="userInquiriesWeight" value="3" checked></td>
+                <td><input type="radio" name="userInquiriesWeight" value="4"></td>
+                <td><input type="radio" name="userInquiriesWeight" value="6"></td>
+            </tr>
+            <tr>
+                <td class="param-cell">Number of Files</td>
+                <td><input type="number" id="files" value="5" min="0"></td>
+                <td><input type="radio" name="filesWeight" value="7"></td>
+                <td><input type="radio" name="filesWeight" value="10" checked></td>
+                <td><input type="radio" name="filesWeight" value="15"></td>
+            </tr>
+            <tr>
+                <td class="param-cell">Number of External Interfaces</td>
+                <td><input type="number" id="externalInt" value="2" min="0"></td>
+                <td><input type="radio" name="externalIntWeight" value="5"></td>
+                <td><input type="radio" name="externalIntWeight" value="7" checked></td>
+                <td><input type="radio" name="externalIntWeight" value="10"></td>
+            </tr>
+        </table>
+
+        <!-- Complexity Adjustment Table -->
+        <div class="section-title">Complexity Adjustment Table</div>
+        <table class="complexity-table">
+            <tr>
+                <th style="width: 5%;">ITEM</th>
+                <th style="width: 55%;">COMPLEXITY ADJUSTMENT QUESTIONS</th>
+                <th colspan="6" class="scale-header">SCALE<br>No influence&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Essential<br>0&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;5</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="complexity-question">Does the system require reliable backup and recovery?</td>
+                <td><input type="radio" name="q1" value="0"></td>
+                <td><input type="radio" name="q1" value="1"></td>
+                <td><input type="radio" name="q1" value="2"></td>
+                <td><input type="radio" name="q1" value="3" checked></td>
+                <td><input type="radio" name="q1" value="4"></td>
+                <td><input type="radio" name="q1" value="5"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="complexity-question">Are data communications required?</td>
+                <td><input type="radio" name="q2" value="0"></td>
+                <td><input type="radio" name="q2" value="1"></td>
+                <td><input type="radio" name="q2" value="2" checked></td>
+                <td><input type="radio" name="q2" value="3"></td>
+                <td><input type="radio" name="q2" value="4"></td>
+                <td><input type="radio" name="q2" value="5"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="complexity-question">Are there distributed processing functions?</td>
+                <td><input type="radio" name="q3" value="0"></td>
+                <td><input type="radio" name="q3" value="1"></td>
+                <td><input type="radio" name="q3" value="2" checked></td>
+                <td><input type="radio" name="q3" value="3"></td>
+                <td><input type="radio" name="q3" value="4"></td>
+                <td><input type="radio" name="q3" value="5"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="complexity-question">Is performance critical?</td>
+                <td><input type="radio" name="q4" value="0"></td>
+                <td><input type="radio" name="q4" value="1"></td>
+                <td><input type="radio" name="q4" value="2"></td>
+                <td><input type="radio" name="q4" value="3"></td>
+                <td><input type="radio" name="q4" value="4" checked></td>
+                <td><input type="radio" name="q4" value="5"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="complexity-question">Will the system run in an existing, heavily utilized operational environment?</td>
+                <td><input type="radio" name="q5" value="0"></td>
+                <td><input type="radio" name="q5" value="1"></td>
+                <td><input type="radio" name="q5" value="2"></td>
+                <td><input type="radio" name="q5" value="3" checked></td>
+                <td><input type="radio" name="q5" value="4"></td>
+                <td><input type="radio" name="q5" value="5"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td class="complexity-question">Does the system require on-line data entry?</td>
+                <td><input type="radio" name="q6" value="0"></td>
+                <td><input type="radio" name="q6" value="1"></td>
+                <td><input type="radio" name="q6" value="2"></td>
+                <td><input type="radio" name="q6" value="3"></td>
+                <td><input type="radio" name="q6" value="4"></td>
+                <td><input type="radio" name="q6" value="5" checked></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td class="complexity-question">Does the on-line data entry require the input transaction to be built over multiple screens or operations?</td>
+                <td><input type="radio" name="q7" value="0"></td>
+                <td><input type="radio" name="q7" value="1"></td>
+                <td><input type="radio" name="q7" value="2" checked></td>
+                <td><input type="radio" name="q7" value="3"></td>
+                <td><input type="radio" name="q7" value="4"></td>
+                <td><input type="radio" name="q7" value="5"></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td class="complexity-question">Are the master files updated on-line?</td>
+                <td><input type="radio" name="q8" value="0"></td>
+                <td><input type="radio" name="q8" value="1"></td>
+                <td><input type="radio" name="q8" value="2"></td>
+                <td><input type="radio" name="q8" value="3"></td>
+                <td><input type="radio" name="q8" value="4" checked></td>
+                <td><input type="radio" name="q8" value="5"></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td class="complexity-question">Are the inputs, outputs, files or inquiries complex?</td>
+                <td><input type="radio" name="q9" value="0"></td>
+                <td><input type="radio" name="q9" value="1"></td>
+                <td><input type="radio" name="q9" value="2"></td>
+                <td><input type="radio" name="q9" value="3" checked></td>
+                <td><input type="radio" name="q9" value="4"></td>
+                <td><input type="radio" name="q9" value="5"></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td class="complexity-question">Is the internal processing complex?</td>
+                <td><input type="radio" name="q10" value="0"></td>
+                <td><input type="radio" name="q10" value="1"></td>
+                <td><input type="radio" name="q10" value="2" checked></td>
+                <td><input type="radio" name="q10" value="3"></td>
+                <td><input type="radio" name="q10" value="4"></td>
+                <td><input type="radio" name="q10" value="5"></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td class="complexity-question">Is the code to be designed reusable?</td>
+                <td><input type="radio" name="q11" value="0"></td>
+                <td><input type="radio" name="q11" value="1"></td>
+                <td><input type="radio" name="q11" value="2"></td>
+                <td><input type="radio" name="q11" value="3" checked></td>
+                <td><input type="radio" name="q11" value="4"></td>
+                <td><input type="radio" name="q11" value="5"></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td class="complexity-question">Are conversion and installation included in the design?</td>
+                <td><input type="radio" name="q12" value="0"></td>
+                <td><input type="radio" name="q12" value="1" checked></td>
+                <td><input type="radio" name="q12" value="2"></td>
+                <td><input type="radio" name="q12" value="3"></td>
+                <td><input type="radio" name="q12" value="4"></td>
+                <td><input type="radio" name="q12" value="5"></td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td class="complexity-question">Is the system designed for multiple installations in different organizations?</td>
+                <td><input type="radio" name="q13" value="0"></td>
+                <td><input type="radio" name="q13" value="1" checked></td>
+                <td><input type="radio" name="q13" value="2"></td>
+                <td><input type="radio" name="q13" value="3"></td>
+                <td><input type="radio" name="q13" value="4"></td>
+                <td><input type="radio" name="q13" value="5"></td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td class="complexity-question">Is the application designed to facilitate change and ease of use by the user?</td>
+                <td><input type="radio" name="q14" value="0"></td>
+                <td><input type="radio" name="q14" value="1"></td>
+                <td><input type="radio" name="q14" value="2"></td>
+                <td><input type="radio" name="q14" value="3"></td>
+                <td><input type="radio" name="q14" value="4" checked></td>
+                <td><input type="radio" name="q14" value="5"></td>
+            </tr>
+        </table>
+
+        <!-- Result Section -->
+        <div class="result-section">
+            <div style="margin-bottom: 20px; font-size: 12px;">
+                <strong>NOTE:</strong> For any updates made on any of the entries, always click the 'Calculate Function Points' button to recalculate function points value
+            </div>
+            
+            <button onclick="resetForm()">Reset / Clear all form entries</button>
+            <button onclick="calculateFP()" style="background: #d0d0d0;">Calculate Function Points</button>
+            
+            <div class="result-box">
+                <div style="background: #b3d9ff; font-weight: bold; padding: 10px; margin-bottom: 15px;">RESULT</div>
+                <div class="result-label">PROJECT FUNCTION POINTS</div>
+                <div class="result-value" id="fpResult">140.4</div>
+            </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="nav-links">
+            <a href="#">Top of Page</a> | 
+            <a href="#" onclick="scrollToDomainTable()">Domain Characteristic Table</a> | 
+            <a href="#" onclick="scrollToComplexityTable()">Complexity Adjustment Table</a>
+        </div>
+    </div>
+
+    <script>
+        function calculateFP() {
+            // Get domain characteristic values
+            const userInput = parseInt(document.getElementById('userInput').value) || 0;
+            const userOutput = parseInt(document.getElementById('userOutput').value) || 0;
+            const userInquiries = parseInt(document.getElementById('userInquiries').value) || 0;
+            const files = parseInt(document.getElementById('files').value) || 0;
+            const externalInt = parseInt(document.getElementById('externalInt').value) || 0;
+            
+            // Get weighting factors
+            const userInputWeight = parseInt(document.querySelector('input[name="userInputWeight"]:checked').value);
+            const userOutputWeight = parseInt(document.querySelector('input[name="userOutputWeight"]:checked').value);
+            const userInquiriesWeight = parseInt(document.querySelector('input[name="userInquiriesWeight"]:checked').value);
+            const filesWeight = parseInt(document.querySelector('input[name="filesWeight"]:checked').value);
+            const externalIntWeight = parseInt(document.querySelector('input[name="externalIntWeight"]:checked').value);
+            
+            // Calculate Unadjusted Function Points (UFP)
+            const ufp = (userInput * userInputWeight) + 
+                       (userOutput * userOutputWeight) + 
+                       (userInquiries * userInquiriesWeight) + 
+                       (files * filesWeight) + 
+                       (externalInt * externalIntWeight);
+            
+            // Calculate Technical Complexity Factor (TCF)
+            let tcfSum = 0;
+            for (let i = 1; i <= 14; i++) {
+                const question = document.querySelector(`input[name="q${i}"]:checked`);
+                if (question) {
+                    tcfSum += parseInt(question.value);
+                }
+            }
+            
+            // TCF = 0.65 + (0.01 * sum of complexity factors)
+            const tcf = 0.65 + (0.01 * tcfSum);
+            
+            // Calculate Adjusted Function Points (AFP)
+            const afp = ufp * tcf;
+            
+            // Display result
+            document.getElementById('fpResult').textContent = afp.toFixed(1);
+        }
+        
+        function resetForm() {
+            // Reset all input fields
+            document.getElementById('userInput').value = '0';
+            document.getElementById('userOutput').value = '0';
+            document.getElementById('userInquiries').value = '0';
+            document.getElementById('files').value = '0';
+            document.getElementById('externalInt').value = '0';
+            
+            // Reset all radio buttons to first option
+            const radioGroups = ['userInputWeight', 'userOutputWeight', 'userInquiriesWeight', 'filesWeight', 'externalIntWeight'];
+            radioGroups.forEach(group => {
+                document.querySelector(`input[name="${group}"]`).checked = true;
+            });
+            
+            // Reset complexity questions to 0
+            for (let i = 1; i <= 14; i++) {
+                document.querySelector(`input[name="q${i}"]`).checked = true;
+            }
+            
+            // Reset result
+            document.getElementById('fpResult').textContent = '0.0';
+        }
+        
+        function scrollToDomainTable() {
+            document.querySelector('.section-title').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function scrollToComplexityTable() {
+            document.querySelector('.complexity-table').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Calculate initial result on page load
+        window.onload = function() {
+            calculateFP();
+        };
+    </script>
+</body>
+</html>

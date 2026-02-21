@@ -1,0 +1,34 @@
+# Core ML Libraries
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+tensorflow==2.13.0
+keras==2.13.1
+
+# Data Processing
+lxml==4.9.3
+beautifulsoup4==4.12.2
+openpyxl==3.1.2
+kaggle==1.5.16
+
+# Database
+pymongo==4.5.0
+python-dotenv==1.0.0
+
+# API Framework
+flask==2.3.3
+flask-cors==4.0.0
+gunicorn==21.2.0
+
+# Utilities
+joblib==1.3.2
+requests==2.31.0
+tqdm==4.66.1
+
+# Model Evaluation
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Optional (for better performance)
+# xgboost==1.7.6
+# lightgbm==4.0.0

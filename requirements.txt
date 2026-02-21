@@ -1,0 +1,11 @@
+# Flask Backend Requirements
+# Install with: pip install -r requirements.txt
+
+Flask==3.0.0
+flask-cors==4.0.0
+Pillow==10.1.0
+pytesseract==0.3.10
+
+# Optional: For better ML-based OCR
+# easyocr==1.7.0
+# opencv-python==4.8.1.78
