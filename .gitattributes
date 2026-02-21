@@ -1,3 +1,4 @@
+ai-models/data/** filter=lfs diff=lfs merge=lfs -text
 ai-models/data/**/*.csv filter=lfs diff=lfs merge=lfs -text
 ai-models/data/**/*.txt filter=lfs diff=lfs merge=lfs -text
 ai-models/data/**/*.pdf filter=lfs diff=lfs merge=lfs -text
